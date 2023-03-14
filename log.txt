@@ -1,0 +1,568 @@
+Tue Mar 14 12:27:37 2023
+Windows-10-10.0.22621
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.04s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.13s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.choice(['death','alive'])
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 16.38s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.08s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.choice(['death','alive'])
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 16.88s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.04s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.choice(['death','alive'])
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 17.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.choice(['death','alive'])
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 82.61s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 83.09s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 83.74s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 84.32s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 84.91s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.03s
+Loading script took 0.09s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 85.42s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 6: expected statement.
+    f = random.randint(1,2)
+      ^
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 118.04s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Eddie.Gu26\\Downloads\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Eddie.Gu26\\AppData\\Roaming/RenPy/backups\\odyse':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    if f == "1":
+  File "game/script.rpy", line 57, in <module>
+    if f == "1":
+NameError: name 'f' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 178.62s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.10s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Eddie.Gu26\\Downloads\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Eddie.Gu26\\AppData\\Roaming/RenPy/backups\\odyse':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    if f == 1:
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 57, in <module>
+    if f == 1:
+NameError: name 'f' is not defined
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    if f == 1:
+  File "game/script.rpy", line 57, in <module>
+    if f == 1:
+NameError: name 'f' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 263.85s
+Early init took 0.00s
+Loader init took 0.03s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Eddie.Gu26\\Downloads\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Eddie.Gu26\\AppData\\Roaming/RenPy/backups\\odyse':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    if % f == 1:
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1090, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1027, in py_compile
+    raise e
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 979, in py_compile
+    raise orig_e
+  File "C:\Users\Eddie.Gu26\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 972, in py_compile
+    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
+SyntaxError: invalid syntax (game/script.rpy, line 57)
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    if % f == 1:
+SyntaxError: invalid syntax (game/script.rpy, line 57)
+Resetting cache.
+Bootstrap to the start of init.init took 422.47s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.04s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\Eddie.Gu26\\Downloads\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Eddie.Gu26\\AppData\\Roaming/RenPy/backups\\odyse':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 2.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2880, 1920)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 27.20.100.9624'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2776, 1562) drawable=(2776, 1562)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
