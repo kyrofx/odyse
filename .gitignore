@@ -1,4 +1,5 @@
 
 The-Odyssey-dp/
-game\saves\
-game\cache\
+game\saves\*
+game\cache\*
+auto.*
