@@ -61,9 +61,99 @@ label start:
     cyclops "Unfortunately for you, I am a heartless creature!"
     cyclops "I will eat two of your men!"
     n "The Cyclops eats two men in a gruesome fasion."
-    
+    n "The night passes in fear as you and the rest of the crew huddle in a corner."
+    cyclops "I will be leaving to herd the sheep. All of you must stay put."
+    c "What should we do? We can't stay like this!"
+    o "Yes! We must plan."
+    menu:
+        o "What do you think we should do?"
+        "Use trickery":
+            jump tricks
+        "Use violence":
+            jump violence
+        "Use bribery":
+            jump bribe
+        "Use peace":
+            jump peace
 
-    
+    return
+
+label tricks:
+
+label violence:
+    y "Let's use violence. It's our only option now."
+    o "Right O!"
+    o "When the Cyclops gets back, we shall hold a sheep hostage!"
+    n "The Cyclops returns hours later."
+    o "Give us our freedom! Otherwise this sheep will become a thing of the past."
+    cyclops "How dare you try to hold my sheep hostage!"
+    n "The cyclops goes on to kill most of the crew members."
+    o "Hurry! Grab that end of the rope so we can trip the cyclops!"
+    n "The cyclops falls and Odysseus stabs him in the head."
+    n "You are now free but only within the cave."
+    n "The boulder still holds the crew inside."
+    n "Odysseus' story is forgotten."
+    return
+label bribe:
+    y "We must bribe the Cyclops with riches! It's the only option worth giving a shot."
+    o "Okay. When the Cyclops enters, we must shower it with treasures. While it is distracted, we run!"
+    n "The Cyclops returns hours later."
+    o "Here is some treasure!"
+    c "We have more back here too!"
+    cyclops "Huh?"
+    cyclops "What are you talking about?"
+    n "In his confused state, the Cyclops forgets to close the door behind him. He stumbles to the back of the cave where he finds nothing."
+    cyclops "Theres nothing here?"
+    n "The Cyclops turns around to be alone in a dark cave."
+    n "Angry, the Cyclops runs out of the cave and catches up to the back half of Odysseus' crew."
+    cyclops "How dare you try to escape!"
+    n "The Cyclops kills the half."
+    o "Oh no! The Cyclops is catching up!"
+    menu:
+        o "Where should we head to?"
+        "The boat":
+            jump boat
+        "Into the trees":
+            jump trees
+
+
+label boat:
+    o "Ok!"
+    n "The first half of Odysseus' crew make it onto the boat."
+    o "Hurry! We must get this boat out of here!"
+    n "Unfortunately for you and the crew, you were unable to make it past the Cyclops' throwing range in time."
+    n "He throws a boulder and everyone dies."
+    n "Odysseus' story is forgotten."
+
+
+label trees:
+    o "Oh! Didn't think of that."
+    n "The half that made it run into the dark forest."
+    c "The Cyclops can't possibly find us here."
+    o "I still don't want to risk it. I will lead us to the ship."
+    o "Follow closely along. I do not want to lose more of you."
+    cyclops "Rwahhh!!! I found you! You all are dead!"
+    o "Run faster!"
+    n "All survivors safely make it onto the ship."
+    n "Without the Cyclops present, the boat swiftly escapes the island."
+    n "{br}Good ending!{/br}"
+
+
+
+label peace:
+    y "Let's use peace. It's our only option now."
+    o "Right O!"
+    o "When the Cyclops gets back, we must all beg and try to make treaties."
+    n "The Cyclops returns hours later."
+    o "Please! we are begging you! Please let us go!"
+    o "We won't ask for gifts!"
+    cyclops "Do you really think I'm going to let you and your crew leave this cave?"
+    cyclops "I earn nothing from letting you go! But if I keep you, I get all of the fresh human flesh!"
+    n "The Cyclops eats Odysseus and then the rest of the crew."
+    n "Odysseus' story is forgotten."
+    return
+
+
 
 label stay:
         n "You stayed on the boat and made your way safely back to Ithaca."
@@ -85,15 +175,6 @@ label trap:
         n "There will be consequences in the future."
         return
 
-return 
-n "test"
-    default f = renpy.random.randint(1,5)
-    if f == 1:
-        n "odyseus died."
-        return
-    if f == 2:
-        n "odyseus is alive"
-        return
-    else:
-        n "yayysyrs"
-    return
+
+label escape:
+    #implement random function to see if they taunt or not.
