@@ -7,15 +7,14 @@ define c = Character("Crew member")
 
 label start:
 
-    scene bgboat
+    scene boatwater
 
-    n "Chapter 1... The journey"
+    n "Book 9: The Cyclops"
     n "Game made by Eddie, Matthew, & Krithik for Mr. Fleitas"
 
     o "Hi! We're on our way back to Ithaca after the war in Troy."
     o "Oh look! I can see land!"
     n "You arrived at the Island of the Cyclops."
-    scene fromboat
     menu:
         o "Should we stop at the Island of the Cyclops??"
         "Go to the Island of the Cyclops":
@@ -25,12 +24,12 @@ label start:
             jump stay
     
     
-    show island
+    show boatland
     o "Wow what a nice island!"
     o "There's so much sheep!"
     o "I heard that this island has the Cyclops and that they have good items."
     o "Let us visit their cave."
-    show cave
+    show caveoutside with fade
     c "There's so much cheese in this cave!"
     c "We should just take the cheese and the sheep outside and leave."
     menu:
@@ -78,9 +77,10 @@ label start:
 
     return
 
-label tricks:
+label tricks:    #TRICKS
+    
 
-label violence:
+label violence:  #VIOLENCE
     y "Let's use violence. It's our only option now."
     o "Right O!"
     o "When the Cyclops gets back, we shall hold a sheep hostage!"
@@ -94,7 +94,7 @@ label violence:
     n "The boulder still holds the crew inside."
     n "Odysseus' story is forgotten."
     return
-label bribe:
+label bribe:   #BRIBE
     y "We must bribe the Cyclops with riches! It's the only option worth giving a shot."
     o "Okay. When the Cyclops enters, we must shower it with treasures. While it is distracted, we run!"
     n "The Cyclops returns hours later."
@@ -140,7 +140,7 @@ label trees:
 
 
 
-label peace:
+label peace:    #PEACE
     y "Let's use peace. It's our only option now."
     o "Right O!"
     o "When the Cyclops gets back, we must all beg and try to make treaties."
@@ -178,3 +178,12 @@ label trap:
 
 label escape:
     #implement random function to see if they taunt or not.
+
+label ending:
+    n "Looks like you made it to the end of the game."
+    menu:
+        n "Looks like you made it to the end of the game."
+        "Play again":
+            jump start
+        "Quit":
+            return
