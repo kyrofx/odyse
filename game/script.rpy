@@ -2,8 +2,14 @@
 define n = Character("Narrator")
 define y = Character("You")
 define c = Character("Crew member")
-
-
+$ escapeByBoat = False
+$ endingInt = 0
+    # 0 = default
+    # 1 = GOOD; on foot to boat
+    # 2 = GOOD; How many tricks up your sleeve
+    # 3 = BAD; Stuck in cave
+    # 4 = BAD; Killed by Cyclops
+$ playerName = ""
 
 label start:
 
@@ -94,6 +100,7 @@ label tricks:    #TRICKS
     o "Hurry! Let us stick the stick in his eye!"
     n "Odysseus and his crew stick the stick into the Cyclops' eye."
     n "The Cyclops wakes up in the morning."
+    # add name function !!!!!
     cyclops "What happened?"
     cyclops "I can't see!"
     n "Odysseus and his crew don't respond."
@@ -106,8 +113,9 @@ label tricks:    #TRICKS
     cyclops "You are free my sheep!"
     n "The sheep run out of the cave."
     odysseus "We made it!"
-    n "Odysseus and his crew were able to escape the island."
-    n "Odysseus and his crew climbed aboard the boat and sailed away."
+    n "Odysseus and his crew climbed aboard the boat."
+    escapeByBoat = True
+    jump escape
     jump ending
     return
 
@@ -125,7 +133,10 @@ label violence:  #VIOLENCE
     n "You are now free but only within the cave."
     n "The boulder still holds the crew inside."
     n "Odysseus' story is forgotten."
+    jump ending
     return
+
+
 label bribe:   #BRIBE
     y "We must bribe the Cyclops with riches! It's the only option worth giving a shot."
     o "Okay. When the Cyclops enters, we must shower it with treasures. While it is distracted, we run!"
@@ -156,6 +167,8 @@ label boat:
     n "Unfortunately for you and the crew, you were unable to make it past the Cyclops' throwing range in time."
     n "He throws a boulder and everyone dies."
     n "Odysseus' story is forgotten."
+    jump ending
+    return
 
 
 label trees:
@@ -168,7 +181,8 @@ label trees:
     o "Run faster!"
     n "All survivors safely make it onto the ship."
     n "Without the Cyclops present, the boat swiftly escapes the island."
-    n "{br}Good ending!{/br}"
+    jump ending
+    return
 
 
 
@@ -183,6 +197,7 @@ label peace:    #PEACE
     cyclops "I earn nothing from letting you go! But if I keep you, I get all of the fresh human flesh!"
     n "The Cyclops eats Odysseus and then the rest of the crew."
     n "Odysseus' story is forgotten."
+    jump ending
     return
 
 
@@ -192,12 +207,14 @@ label stay:
         n "All your crewmembers were safe and you didn't fall for any tricks on the way."
         n "Odysseus gets to meet Penelope again."
         n "Everything is happy again."
+        jump ending
         return
 label takei:
         n "You and the crew took the items and left the island."
         n "All your crewmembers were safe and you didn't fall for any tricks on the way."
         n "Odysseus gets to meet Penelope again."
         n "Everything is happy again."
+        jump ending
         return
 label trap:
         n "Your trap worked."
@@ -205,17 +222,60 @@ label trap:
         n "The crew successfully returns to Ithaca with sheep and cheese."
         n "One problem though, the Gods are not happy with your actions."
         n "There will be consequences in the future."
+        jump escape
         return
 
 
 label escape:
     #implement random function to see if they taunt or not.
+    $ taunt = renpy.random.randint(1, 2)
+    if taunt == 1:
+        #taunt
+        o "Hey idiot!"
+        o "The mortal that was able to beat you is Odysseus!"
+        cyclops "Curse you!"
+        cyclops "You will never be able to return home! If it is fated that you do, you will do so with no honor!"
+        if escapeByBoat == True:
+            n "The Cyclops lifts a large boulder and throws it at the boat."
+            n "The boat is destroyed and the crew is killed."
+            n "Odysseus' story is forgotten."
+            jump ending
+            return
+        else:
+            o "We made it!"
+            o "We escaped the Cyclops!"
+            o "Let us celebrate. We are free again!"
+            o "Turn the boat to Ithaca!"
+            o "We're coming home Penelope!"
+            jump ending
+
+        return
+    else:
+        #no taunt
+        o "Phew that was close!"
+        o "We are safe for now."
+        o "Let us make our way towards Ithaca now."
+        jump ending
+        return
+
 
 label ending:
-    n "Looks like you made it to the end of the game."
+    $ ending = ""
+    if endingInt == 1:
+           n "You successfully made it to the boat. Your achievement is {b}{i}Running to the boat!{/i}{/b}"
+    if endingInt == 2:
+           n "You successfully made it to the boat. Your achievement is {b}{i}How many tricks do you have up your sleeve?{/i}{/b}"
+    if endingInt == 3:
+             n "You were not successful in escaping. Your achievement is {b}{i}Stuck in a cave.{/i}{/b}"
+    if endingInt == 4:
+                n "You were not successful in escaping. Your achievement is {b}{i}Struck down by a Cyclops.{/i}{/b}"
+
+
     menu:
-        n "Looks like you made it to the end of the game."
+        n "This is the end of the game. Thank you for playing!"
         "Play again":
             jump start
         "Quit":
+            n "Game coded by Eddie Gu. Script by Matthew Jung. Artwork by Krithik Sambathkumar & respective artists."
+            n "This game should only appear for English 1 period 4 Mr. Fleitas' class."
             return
