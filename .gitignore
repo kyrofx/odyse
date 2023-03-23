@@ -1,5 +1,6 @@
 
 The-Odyssey-dp/
-game\saves\*
-game\cache\*
-auto.*
+\game\saves\*
+\game\cache\*
+*.save
+game/saves/auto-1-LT1.save

@@ -78,7 +78,39 @@ label start:
     return
 
 label tricks:    #TRICKS
-    
+    y "Let's use trickery! It's the smartest way out!"
+    o "That's my style!"
+    n "Odysseus and his crew prepare some wine and a large stick for later use."
+    o "When the Cyclops returns, we shall offer him some wine."
+    o "While he is distracted, we shall run!"
+    n "The Cyclops returns hours later."
+    o "Here is some wine!"
+    cyclops "Huh?"
+    n "The Cyclops drinks the wine"
+    cyclops "What is this? This is very good!"
+    n "The Cyclops drinks more wine."
+    cyclops "Woah I'm getting drunk!"
+    n "The Cyclops falls asleep."
+    o "Hurry! Let us stick the stick in his eye!"
+    n "Odysseus and his crew stick the stick into the Cyclops' eye."
+    n "The Cyclops wakes up in the morning."
+    cyclops "What happened?"
+    cyclops "I can't see!"
+    n "Odysseus and his crew don't respond."
+    n "They are hiding beneath the sheep, waiting for the Cyclops to let his sheep out to graze."
+    n "The Cyclops grunts as nobody responds."
+    cyclops "Where are you guys?"
+    n "The Cyclops runs around the cave, bumping into walls."
+    n "In the end, he gives up."
+    n "The Cyclops grunts as he opens the cave door."
+    cyclops "You are free my sheep!"
+    n "The sheep run out of the cave."
+    odysseus "We made it!"
+    n "Odysseus and his crew were able to escape the island."
+    n "Odysseus and his crew climbed aboard the boat and sailed away."
+    jump ending
+    return
+
 
 label violence:  #VIOLENCE
     y "Let's use violence. It's our only option now."
