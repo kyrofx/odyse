@@ -30,7 +30,7 @@ label start:
             jump stay
     
     
-    show boatland
+    show boatland with dissolve
     o "Wow what a nice island!"
     o "There's so much sheep!"
     o "I heard that this island has the Cyclops and that they have good items."
@@ -44,15 +44,19 @@ label start:
             y "We would be better off with these sheep and cheese. The Cyclops will probably kill us anyway."
             jump takei
         "Wait for the Cyclops to see if they have more things they can give us":
+            show caveinside with fade
             y "Let's wait. The Cyclops will give us more treasures than what is offered now."
         "Set a trap for the Cyclops":
+            show caveinside with fade
             y "How about we set a trap for the Cyclops to fall into?"
             y "Once the Cyclops is dead, we can take all of his belongings."
             jump trap
     
-    
-    o "Okay, we better wait then."
+        #     This is the waiting scene.
+
+    o "Okay, we better get comfortable then."
     define cyclops = Character("Cyclops")
+    show caveinsidecyclops with fade
     n "The cyclops enters the cave with his sheep."
     n "He closes the cave by rolling a massive boulder behind him."
     cyclops "(Surprised) What are you doing in my cave?"
@@ -65,9 +69,11 @@ label start:
     o "We crashed into the coast! Poseiden wrecked our ship."
     cyclops "Unfortunately for you, I am a heartless creature!"
     cyclops "I will eat two of your men!"
+    show cyclopskill
     n "The Cyclops eats two men in a gruesome fasion."
     n "The night passes in fear as you and the rest of the crew huddle in a corner."
     cyclops "I will be leaving to herd the sheep. All of you must stay put."
+    scene caveinside
     c "What should we do? We can't stay like this!"
     o "Yes! We must plan."
     menu:
@@ -89,6 +95,7 @@ label tricks:    #TRICKS
     n "Odysseus and his crew prepare some wine and a large stick for later use."
     o "When the Cyclops returns, we shall offer him some wine."
     o "While he is distracted, we shall run!"
+    scene caveinsidecyclops with fade
     n "The Cyclops returns hours later."
     o "Here is some wine!"
     cyclops "Huh?"
@@ -242,6 +249,7 @@ label escape:
             jump ending
             return
         else:
+            #no taunt, win
             o "We made it!"
             o "We escaped the Cyclops!"
             o "Let us celebrate. We are free again!"
