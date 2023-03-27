@@ -23,13 +23,15 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "2.2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
+define gui.about = _p("""A game based on The Odyssey (By Homer, translated by Emily Wilson)
+Game made by Eddie Gu. Art made by Krithik Sambathkumar. Overall script made by Matthew Jung.
+Want to see the SRC? GitHub.com/kyrofx/odyse
 """)
 
 
@@ -150,7 +152,7 @@ define config.save_directory = "odyse-1678296746"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/window.jpg"
 
 
 ## Build configuration #########################################################

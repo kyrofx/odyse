@@ -149,7 +149,7 @@ label tricks:    #TRICKS
     n "The sheep run out of the cave."
     scene outsidecavecyclopsinside with dissolve
     show odysseus
-    odysseus "We made it!"
+    o "We made it!"
     hide odysseus
     scene black
     n "Odysseus and his crew climbed aboard the boat."
